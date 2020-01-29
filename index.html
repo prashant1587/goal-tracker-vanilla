@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/assets/styles.css" />
+        </head>
+        <body>
+            <div class="container">
+                <div class="side-panel">
+                    <div onclick="Calendar.addNewGoal()">Goal Add</div>
+                </div>
+                <div class="calendar-container">
+                    <div class="calendar" id="calendar">
+                        <div class="header-container">
+                        <div class="calendar-btn month-btn" onclick="calendarFunction.toggle(this)">
+                            <span id="curMonth"></span>
+                            <div id="months" class="months dropdown"></div>
+                        </div>
+                    
+                        <div class="calendar-btn year-btn" onclick="calendarFunction.toggle(this)">
+                            <span id="curYear"></span>
+                            <div id="years" class="years dropdown"></div>
+                        </div>
+                        </div>
+                        <div class="calendar-dates">
+                            <div class="days" id="days">
+                            </div>
+                    
+                            <div id="calendarDays" class="days">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="/scripts/min/moment.min.js"></script>
+            <script src="/scripts/calendar.js"></script>
+            </body>
+</html>
