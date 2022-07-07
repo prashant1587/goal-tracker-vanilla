@@ -4,7 +4,7 @@
   "description": "Cross Calendar",
   "main": "server.js",
   "dependencies": {
-    "moment": "^2.24.0"
+    "moment": "^2.29.4"
   },
   "devDependencies": {
     "express": "^4.17.1"
